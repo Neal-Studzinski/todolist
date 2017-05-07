@@ -32,7 +32,7 @@ function getToDo()  { // A function that sends an ajax request to read existing 
     data.forEach(function(item, index, array){ // for each item in the array,
 
       console.log(item.todoItem)  // Produce output
-      output.append('<p>' + item.todoItem  + '</p>');
+      output.append('<p>' + item.todoItem  + '<p>');
       // Add Delete button for each item
     })
   //  var deleteButton = .find('.todo-delete')
